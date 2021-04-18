@@ -97,7 +97,7 @@ Those lines mount contents from source games, list goes as follow
 12. In `Hammer++` disable Anisotropic Filtering
 
 ## Last words
-Now you are ready to use Hammer++ and it should work. The only problem you have is that you have to double mount contents as hammer++ does not support Garry's Mod mounting way for now. So if you are using hammer++ you are most propably familiar with `mount.cfg` of gmod, so to mount content into hammer++ you have to mount it in `gameinfo.txt` you edited earlier and add right after those lines you added earlier `game "<path to your content>"`. If you think that I could improve something then messege me on github or you can ping me on discord on [Statua Mapping](https://discord.gg/3Uq4WKNRuF) server, I do recommend you drop by and say hello, a lot of people there can help you with a lot of your problems.
+Now you are ready to use Hammer++ and it should work. The only problem you have is that you have to double mount contents as hammer++ does not support Garry's Mod mounting way for now. So if you are using hammer++ you are most propably familiar with `mount.cfg` of gmod, so to mount content into hammer++ you have to mount it in `gameinfo.txt` you edited earlier and add right after those lines you added earlier `game "<path to your content>"`. If you think that I could improve something then messege me on github or you can ping me on discord (ParSec#4563) on [Statua Mapping](https://discord.gg/3Uq4WKNRuF) server, I do recommend you drop by and say hello, a lot of people there can help you with a lot of your problems.
 
 Now if you don't mind I'm gonna shoot myself in the face.
 Oh and I couldn't forget about you CoolGuy for asking me everyday the same question when will I make it and reminding me how disorganized I am.
