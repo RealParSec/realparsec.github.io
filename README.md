@@ -31,15 +31,28 @@ In this tutorial I assume you have Garry's Mod as well as all the source games I
 5. Right click on `Source SDK 2013 Multiplayer` and hover over `Manage` and then click `Browse local files`
 ![Image 2](./images/2.png)
 6. Navigate into `bin` folder and double click `hammer.exe`, small window should pop out, choose `Half-Life 2`
-7. When hammer opens and fully initialize, close it
+7. When hammer opens and fully initializes, close it
 ![Image 3](./images/3.png)
 
 ### (Optional) How to install Slammin' Tools?
 **Slammin' Tools are not neccessery but are good thing to have especially if you are compiling Statua's maps.**
 
-1. Navigate to this link and and download file ending with `.7z`
+1. Navigate to this [link](https://drive.google.com/drive/folders/17pQY8wDkednZi0kMZOSpAtNBNmFWm6GJ) and and download file ending with `.7z`
 ![Image 4](./images/4.png)
 2. Once downloaded, open archive and drag and drop the files into `bin` folder of `Source SDK 2013 Multiplayer` (it will ask you if you want to override some files and you have to click yes)
 ![Image 5](./images/5.png)
 ![Image 6](./images/6.png)
 3. Now repeat step `6` and `7` of installing `Source SDK 2013 Multiplayer`
+
+## Installing and configuring Hammer++
+Now without any more bullshitting as I already hate myself to the point of punching myself in the face, we get to grand finale which is installing and configuring Hammer++.
+
+### Installing
+1. Navigate to this [link](https://ficool2.github.io/HammerPlusPlus-Website/pages/download.html) and download for version for `Source SDK 2013 Multiplayer`
+![Image 7](./images/7.png)
+2. Once downloaded, open archive and navigate inside folder you see and into `bin` folder inside then drag and drop the files into `bin` folder of `Source SDK 2013 Multiplayer`
+![Image 8](./images/8.png)
+![Image 9](./images/9.png)
+3. Now repeat step `6` and `7` of installing `Source SDK 2013 Multiplayer`
+
+### Configuring
