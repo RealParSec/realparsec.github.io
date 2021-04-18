@@ -32,5 +32,6 @@ In this tutorial I assume you have Garry's Mod as well as all the source games I
 ![Image 2](./images/2.png)
 6. Navigate into `bin` folder and double click `hammer.exe`, small window should pop out, choose Half-Life 2
 7. When hammer opens and fully initialize, close it
+![Image 3](./images/3.png)
 
 ### (Optional) How to install Slammin' Tools?
