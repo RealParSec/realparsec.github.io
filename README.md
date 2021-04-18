@@ -56,11 +56,11 @@ Now without any more bullshitting as I already hate myself to the point of punch
 3. Now repeat step `6` and `7` of installing `Source SDK 2013 Multiplayer`
 
 ### Configuring
-This part of the tutorial will be mostly written, so read it carefully and every step written here is very important.
+This part of the tutorial will be written only, so read it carefully and every step written here is very important.
 
-1. Navigate into root folder of `Source SDK 2013 multiplayer` and open folder named `hl2`
+1. Navigate into root folder of `Source SDK 2013 Multiplayer` and open folder named `hl2`
 2. Open `gameinfo.txt` with the editor of your choice
-3. You will add those lines to your `gameinfo.txt`
+3. You will add those lines to your `gameinfo.txt`, **Don't forget to change "<Steam's common folder>" to proper path**
 ```
 			// Game contents
 			game				"<Steam's common folder>/Counter-Strike Source/cstrike/cstrike_pak.vpk"
@@ -85,3 +85,19 @@ Those lines mount contents from source games, list goes as follow
 - Half-Life 2: Deathmatch
 - Infra
 - Garry's Mod
+
+4. Now navigate into root folder of `Source SDK 2013 Multiplayer` and then into bin folder
+5. Double click `hammerplusplus.exe` and when small window appear you have to choose `Half-Life 2`, yes you won't be adding `Garry's Mod` into that list
+6. Once hammer is open you have to open `Tools` dropdown and from there choose `Options...`
+7. New window will appear, click on `Game Configurations` and you will see small button `Add` click it
+8. Navigate into your `Garry's Mod` root folder and then into `bin` folder and find there file called `garrysmod.fgd` and load it
+9. Click on the `2D Views` tab and in `Options` section tick everything in the right column
+10. In `Build Programs` tab you are going to change path of `Game executable` to `<Garry's Mod root folder>/hl2.exe`
+11. In `Build Programs` tab you are going to change path of `Maps Folder` to `<Garry's Mod root folder>/garrysmod/maps`
+12. In `Hammer++` disable Anisotropic Filtering
+
+## Last words
+Now you are ready to use Hammer++ and it should work. The only problem you have is that you have to double mount contents as hammer++ does not support Garry's Mod mounting way for now. So if you are using hammer++ you are most propably familiar with `mount.cfg` of gmod, so to mount content into hammer++ you have to mount it in `gameinfo.txt` you edited earlier and add right after those lines you added earlier `game "<path to your content>"`. If you think that I could improve something then messege me on github or you can ping me on discord on [Statua Mapping](https://discord.gg/3Uq4WKNRuF) server, I do recommend you drop by and say hello, a lot of people there can help you with a lot of your problems.
+
+Now if you don't mind I'm gonna shoot myself in the face.
+Oh and I couldn't forget about you CoolGuy for asking me everyday the same question when will I make it and reminding me how disorganized I am.
