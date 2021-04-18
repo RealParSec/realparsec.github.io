@@ -5,10 +5,10 @@ The answer is pretty simple... I hate myself. No, but really I saw a lot of peop
 
 ## Requirments
 - Computer running Windows 10 or better
-- 7-Zip
+- [7-Zip](https://www.7-zip.org/)
 - [Garry's Mod](https://store.steampowered.com/app/4000/Garrys_Mod/)
 - Source Games
-	- [Counter Strike: Source](https://store.steampowered.com/app/240/CounterStrike_Source/)
+	- [Counter-Strike: Source](https://store.steampowered.com/app/240/CounterStrike_Source/)
 	- [Half-Life 2](https://store.steampowered.com/app/220/HalfLife_2/)
 	- [Half-Life 2: Deathmatch](https://store.steampowered.com/app/320/HalfLife_2_Deathmatch/)
 	- [Half-Life 2: Episode One](https://store.steampowered.com/app/380/HalfLife_2_Episode_One/)
@@ -56,3 +56,32 @@ Now without any more bullshitting as I already hate myself to the point of punch
 3. Now repeat step `6` and `7` of installing `Source SDK 2013 Multiplayer`
 
 ### Configuring
+This part of the tutorial will be mostly written, so read it carefully and every step written here is very important.
+
+1. Navigate into root folder of `Source SDK 2013 multiplayer` and open folder named `hl2`
+2. Open `gameinfo.txt` with the editor of your choice
+3. You will add those lines to your `gameinfo.txt`
+```
+			// Game contents
+			game				"<Steam's common folder>/Counter-Strike Source/cstrike/cstrike_pak.vpk"
+			game				"<Steam's common folder>/Half-Life 2/episodic/ep1_pak.vpk"
+			game				"<Steam's common folder>/Half-Life 2/ep2/ep2_pak.vpk"
+			game				"<Steam's common folder>/Half-Life 2/lostcoast/lostcoast_pak.vpk"
+			game				"<Steam's common folder>/Half-Life 2 Deathmatch/hl2mp/hl2mp_pak.vpk"
+			game				"<Steam's common folder>/infra/infra/pak01.vpk"
+			game				"<Steam's common folder>/GarrysMod/garrysmod/garrysmod.vpk"
+```
+You add them after those lines:
+```
+			// Where the game's binaries are
+			gamebin				hl2/bin
+			platform			|all_source_engine_paths|platform
+```
+Those lines mount contents from source games, list goes as follow
+- Counter-Strike:Source
+- Half-Life 2: Episode One
+- Half-Life 2: Episode Two
+- Half-Life 2: Lost Coast
+- Half-Life 2: Deathmatch
+- Infra
+- Garry's Mod
