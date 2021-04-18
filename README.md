@@ -21,5 +21,6 @@ The answer is pretty simple... I hate myself. No, but really I saw a lot of peop
 ### How to install source SDK 2013 Multiplayer
 1. Navigate to your steam library and make sure you have tools checked in your filters.
 2. Open `UNCATEGORIZED` category and find `Source SDK 2013 Multiplayer`
-3. Click on `Install` button then on `next` and wait for it to download
+3. Click on `INSTALL` button then on `NEXT` and wait for it to download
 ![Image 1](./images/1.png)
+4. **YOU MUST RUN HAMMER FROM SOURCE SDK 2013 MULTIPLAYER NOW BEFORE CONTINUING**
