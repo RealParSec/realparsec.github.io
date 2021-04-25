@@ -8,13 +8,13 @@
 - [7-Zip](https://www.7-zip.org/)
 - [Garry's Mod](https://store.steampowered.com/app/4000/Garrys_Mod/)
 - Игры Source
-	- [Counter-Strike: Source] (https://store.steampowered.com/app/240/CounterStrike_Source/)
+	- [Counter-Strike: Source](https://store.steampowered.com/app/240/CounterStrike_Source/)
 	- [Half-Life 2](https://store.steampowered.com/app/220/HalfLife_2/)
 	- [Half-Life 2: Deathmatch](https://store.steampowered.com/app/320/HalfLife_2_Deathmatch/)
 	- [Half-Life 2: Episode One](https://store.steampowered.com/app/380/HalfLife_2_Episode_One/)
 	- [Half-Life 2: Episode Two](https://store.steampowered.com/app/420/HalfLife_2_Episode_Two/)
-	- [Half-Life 2: Lost Coast] (https://store.steampowered.com/app/340/HalfLife_2_Lost_Coast/)
-	- (необязательно) [ИНФРА] (https://store.steampowered.com/app/251110/INFRA/)
+	- [Half-Life 2: Lost Coast](https://store.steampowered.com/app/340/HalfLife_2_Lost_Coast/)
+	- (необязательно) [ИНФРА](https://store.steampowered.com/app/251110/INFRA/)
 - Source SDK 2013 Multiplayer
 - (Опционально) [Slammin' Tools] (https://drive.google.com/drive/folders/17pQY8wDkednZi0kMZOSpAtNBNmFWm6GJ)
 - [Hammer++](https://ficool2.github.io/HammerPlusPlus-Website/index.html)

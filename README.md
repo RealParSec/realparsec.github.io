@@ -16,7 +16,7 @@ The answer is pretty simple... I hate myself. No, but really I saw a lot of peop
 	- [Half-Life 2: Lost Coast](https://store.steampowered.com/app/340/HalfLife_2_Lost_Coast/)
 	- (Optional) [INFRA](https://store.steampowered.com/app/251110/INFRA/)
 - Source SDK 2013 Multiplayer
-- (Optionally) [Slammin' Tools](https://drive.google.com/drive/folders/17pQY8wDkednZi0kMZOSpAtNBNmFWm6GJ)
+- (Optional) [Slammin' Tools](https://drive.google.com/drive/folders/17pQY8wDkednZi0kMZOSpAtNBNmFWm6GJ)
 - [Hammer++](https://ficool2.github.io/HammerPlusPlus-Website/index.html)
 
 ## How to install requirments?
