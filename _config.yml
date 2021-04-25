@@ -1,3 +1,8 @@
 title: Hammer++ with GMod
 author: ParSec
 theme: jekyll-theme-slate
+plugins:
+  - jekyll-feed
+  - jekyll-multiple-languages-plugin
+languages: ["en", "ru"]
+exclude_from_localizations: ["images"]
