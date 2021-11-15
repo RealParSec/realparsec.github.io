@@ -8,7 +8,7 @@
 The answer is pretty simple... I hate myself. No, but really I saw a lot of people struggling to install Hammer++ itself but they had more problems with installing it for Garry's Mod, so this is a way I found to make it work.
 
 ## Requirments
-- Computer running Windows 10 or better
+- Computer running Windows 10 (20H2) or newer
 - [7-Zip](https://www.7-zip.org/)
 - [Garry's Mod](https://store.steampowered.com/app/4000/Garrys_Mod/)
 - Source Games
