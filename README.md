@@ -5,7 +5,7 @@
 # How to use Hammer++ with Garry's Mod
 
 ## Why did I create this?
-The answer is pretty simple... I hate myself. No, but really I saw a lot of people struggling to install Hammer++ and use it with Garry's Mod, so this is just a way I found to use it with Garry's Mod.
+The answer is pretty simple... I hate myself. No, but really I saw a lot of people struggling to install Hammer++ itself but they had more problems with installing it for Garry's Mod, so this is a way I found to make it work.
 
 ## Requirments
 - Computer running Windows 10 or better
@@ -31,7 +31,7 @@ In this tutorial I assume you have Garry's Mod as well as all the source games I
 2. Open `UNCATEGORIZED` category and find `Source SDK 2013 Multiplayer`
 3. Click on `INSTALL` button then on `NEXT` and wait for it to download
 ![Image 1](./images/1.png)
-4. **YOU MUST RUN HAMMER FROM SOURCE SDK 2013 MULTIPLAYER NOW BEFORE CONTINUING** (Steps below eplain how to do this)
+4. **YOU MUST RUN HAMMER FROM SOURCE SDK 2013 MULTIPLAYER NOW BEFORE CONTINUING** (Steps below explain how to do this)
 5. Right click on `Source SDK 2013 Multiplayer` and hover over `Manage` and then click `Browse local files`
 ![Image 2](./images/2.png)
 6. Navigate into `bin` folder and double click `hammer.exe`, small window should pop out, choose `Half-Life 2`
@@ -66,20 +66,20 @@ This part of the tutorial will be written only, so read it carefully and every s
 2. Open `gameinfo.txt` with the editor of your choice
 3. You will add those lines to your `gameinfo.txt`, **Don't forget to change "<Steam's common folder>" to proper path**
 ```
-			// Game contents
-			game				"<Steam's common folder>/Counter-Strike Source/cstrike/cstrike_pak.vpk"
-			game				"<Steam's common folder>/Half-Life 2/episodic/ep1_pak.vpk"
-			game				"<Steam's common folder>/Half-Life 2/ep2/ep2_pak.vpk"
-			game				"<Steam's common folder>/Half-Life 2/lostcoast/lostcoast_pak.vpk"
-			game				"<Steam's common folder>/Half-Life 2 Deathmatch/hl2mp/hl2mp_pak.vpk"
-			game				"<Steam's common folder>/infra/infra/pak01.vpk"
-			game				"<Steam's common folder>/GarrysMod/garrysmod/garrysmod.vpk"
+// Game contents
+game				"<Steam's common folder>/Counter-Strike Source/cstrike/cstrike_pak.vpk"
+game				"<Steam's common folder>/Half-Life 2/episodic/ep1_pak.vpk"
+game				"<Steam's common folder>/Half-Life 2/ep2/ep2_pak.vpk"
+game				"<Steam's common folder>/Half-Life 2/lostcoast/lostcoast_pak.vpk"
+game				"<Steam's common folder>/Half-Life 2 Deathmatch/hl2mp/hl2mp_pak.vpk"
+game				"<Steam's common folder>/infra/infra/pak01.vpk"
+game				"<Steam's common folder>/GarrysMod/garrysmod/garrysmod.vpk"
 ```
 You add them after those lines:
 ```
-			// Where the game's binaries are
-			gamebin				hl2/bin
-			platform			|all_source_engine_paths|platform
+// Where the game's binaries are
+gamebin				hl2/bin
+platform			|all_source_engine_paths|platform
 ```
 Those lines mount contents from source games, list goes as follow
 - Counter-Strike:Source
