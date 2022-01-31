@@ -10,15 +10,16 @@ The answer is pretty simple... I hate myself. No, but really I saw a lot of peop
 ## Requirments
 - Computer running Windows 10 (20H2) or newer
 - [7-Zip](https://www.7-zip.org/)
-- [Garry's Mod](https://store.steampowered.com/app/4000/Garrys_Mod/)
+- [Garry's Mod](https://store.steampowered.com/app/4000)
 - Source Games
-	- [Counter-Strike: Source](https://store.steampowered.com/app/240/CounterStrike_Source/)
-	- [Half-Life 2](https://store.steampowered.com/app/220/HalfLife_2/)
-	- [Half-Life 2: Deathmatch](https://store.steampowered.com/app/320/HalfLife_2_Deathmatch/)
-	- [Half-Life 2: Episode One](https://store.steampowered.com/app/380/HalfLife_2_Episode_One/)
-	- [Half-Life 2: Episode Two](https://store.steampowered.com/app/420/HalfLife_2_Episode_Two/)
-	- [Half-Life 2: Lost Coast](https://store.steampowered.com/app/340/HalfLife_2_Lost_Coast/)
-	- (Optional) [INFRA](https://store.steampowered.com/app/251110/INFRA/)
+	- [Counter-Strike: Source](https://store.steampowered.com/app/240)
+	- [Half-Life 2](https://store.steampowered.com/app/220)
+	- [Half-Life 2: Deathmatch](https://store.steampowered.com/app/320)
+	- [Half-Life 2: Episode One](https://store.steampowered.com/app/380)
+	- [Half-Life 2: Episode Two](https://store.steampowered.com/app/420)
+	- [Half-Life 2: Lost Coast](https://store.steampowered.com/app/340)
+	- (Optional) [INFRA](https://store.steampowered.com/app/251110)
+	- (Optional) [Black Mesa](https://store.steampowered.com/app/362890)
 - Source SDK 2013 Multiplayer
 - (Optional) [Slammin' Tools](https://drive.google.com/drive/folders/17pQY8wDkednZi0kMZOSpAtNBNmFWm6GJ)
 - [Hammer++](https://ficool2.github.io/HammerPlusPlus-Website/index.html)
@@ -67,13 +68,14 @@ This part of the tutorial will be written only, so read it carefully and every s
 3. You will add those lines to your `gameinfo.txt`, **Don't forget to change "<Steam's common folder>" to proper path**
 ```
 // Game contents
-game				"<Steam's common folder>/Counter-Strike Source/cstrike/cstrike_pak.vpk"
-game				"<Steam's common folder>/Half-Life 2/episodic/ep1_pak.vpk"
-game				"<Steam's common folder>/Half-Life 2/ep2/ep2_pak.vpk"
-game				"<Steam's common folder>/Half-Life 2/lostcoast/lostcoast_pak.vpk"
-game				"<Steam's common folder>/Half-Life 2 Deathmatch/hl2mp/hl2mp_pak.vpk"
-game				"<Steam's common folder>/infra/infra/pak01.vpk"
 game				"<Steam's common folder>/GarrysMod/garrysmod/garrysmod.vpk"
+game				"<Steam's common folder>/Counter-Strike Source/cstrike"
+game				"<Steam's common folder>/Half-Life 2/episodic"
+game				"<Steam's common folder>/Half-Life 2/ep2"
+game				"<Steam's common folder>/Half-Life 2/lostcoast"
+game				"<Steam's common folder>/Half-Life 2 Deathmatch/hl2mp"
+game				"<Steam's common folder>/infra/infra"
+game				"<Steam's common folder>/Black Mesa/bms"
 ```
 You add them after those lines:
 ```
@@ -82,13 +84,14 @@ gamebin				hl2/bin
 platform			|all_source_engine_paths|platform
 ```
 Those lines mount contents from source games, list goes as follow
+- Garry's Mod
 - Counter-Strike:Source
 - Half-Life 2: Episode One
 - Half-Life 2: Episode Two
 - Half-Life 2: Lost Coast
 - Half-Life 2: Deathmatch
 - Infra
-- Garry's Mod
+- Black Mesa
 
 4. Now navigate into root folder of `Source SDK 2013 Multiplayer` and then into bin folder
 5. Double click `hammerplusplus.exe` and when small window appear you have to choose `Half-Life 2`, yes you won't be adding `Garry's Mod` into that list
@@ -168,18 +171,19 @@ Those lines mount contents from source games, list goes as follow
 			// Last, mount in shared HL2 loose files
 			game				|all_source_engine_paths|hl2
 			platform			|all_source_engine_paths|platform
-			
-			// Some game contents
-			game				"F:/Steam/steamapps/common/Counter-Strike Source/cstrike/cstrike_pak.vpk"
-			game				"F:/Steam/steamapps/common/Half-Life 2/episodic/ep1_pak.vpk"
-			game				"F:/Steam/steamapps/common/Half-Life 2/ep2/ep2_pak.vpk"
-			game				"F:/Steam/steamapps/common/Half-Life 2/lostcoast/lostcoast_pak.vpk"
-			game				"F:/Steam/steamapps/common/Half-Life 2 Deathmatch/hl2mp/hl2mp_pak.vpk"
-			game				"F:/Steam/steamapps/common/infra/infra/pak01.vpk"
-			game				"F:/Steam/steamapps/common/GarrysMod/garrysmod/garrysmod.vpk"
+
+			// Source game contents
+			game				"|all_source_engine_paths|../GarrysMod/garrysmod/garrysmod.vpk"
+			game				"|all_source_engine_paths|../Counter-Strike Source/cstrike"
+			game				"|all_source_engine_paths|../Half-Life 2/episodic"
+			game				"|all_source_engine_paths|../Half-Life 2/ep2"
+			game				"|all_source_engine_paths|../Half-Life 2/lostcoast"
+			game				"|all_source_engine_paths|../Half-Life 2 Deathmatch/hl2mp"
+			game				"|all_source_engine_paths|../infra/infra"
+			game				"|all_source_engine_paths|../Black Mesa/bms"
 
 			// Other contents
-			// game				"<location>"
+			// game				"E:/gmod/maps/rp_riverden/content/"
 		}
 	}
 }
