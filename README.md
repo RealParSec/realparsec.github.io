@@ -24,7 +24,7 @@ The answer is pretty simple... I hate myself. No, but really I saw a lot of peop
 - (Optional) [Slammin' Tools](https://drive.google.com/drive/folders/17pQY8wDkednZi0kMZOSpAtNBNmFWm6GJ)
 - [Hammer++](https://ficool2.github.io/HammerPlusPlus-Website/index.html)
 
-**About Windows versions compatibility**
+**About Windows versions compatibility**  
 Windows is required to run Hammer++, as other OSes are not fully supported by Valve thus hammer is not available for any other OS than Windows. When it comes to specific version there is none, I have personally tested it on Windows 10 Pro version 20H2 build 19042.928 and all the versions until Windows 10 Pro version 21H2 build 19044.1526 (being the newest version available in public channel as of time of writing this). That being said, since I published this guide almost a year ago, people have followed it and succeeded in installing it on many diffrent windows versions including windows 11.
 
 ## How to install requirments?
