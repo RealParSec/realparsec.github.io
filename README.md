@@ -70,6 +70,7 @@ This part of the tutorial will be text only, so read it very carefully as every 
 2. Open `gameinfo.txt` with a text editor of your choice
 3. You're gonna need to add these lines into your `gameinfo.txt`, **don't forget to change "<Steam's common folder>" to proper path!**
 Example: [link](https://github.com/RealParSec/realparsec.github.io/blob/master/README.md#example-gameinfotxt)
+
 ```
 // Source games content
 game				"<Steam's common folder>/GarrysMod/garrysmod/garrysmod.vpk"
@@ -87,12 +88,15 @@ game				"<Steam's common folder>/Black Mesa/bms/bms_sound_vo_english.vpk"
 game				"<Steam's common folder>/Black Mesa/bms/bms_sounds_misc.vpk"
 game				"<Steam's common folder>/Black Mesa/bms/bms_textures.vpk"
 ```
+
 You add them after those lines:
+
 ```
 // Where the game's binaries are
 gamebin				hl2/bin
 platform			|all_source_engine_paths|platform
 ```
+
 These lines mount contents from source games, list goes as follow
 - Garry's Mod
 - Counter-Strike: Source
@@ -114,6 +118,7 @@ These lines mount contents from source games, list goes as follow
 12. In `Hammer++`, disable Anisotropic Filtering
 
 ## Example `gameinfo.txt`
+
 ```
 "GameInfo"
 {
