@@ -177,15 +177,22 @@ These lines mount contents from source games, list goes as follow
 			game				|all_source_engine_paths|hl2
 			platform			|all_source_engine_paths|platform
 
-			// Source game contents
-			game				"|all_source_engine_paths|../GarrysMod/garrysmod/garrysmod.vpk"
-			game				"|all_source_engine_paths|../Counter-Strike Source/cstrike"
-			game				"|all_source_engine_paths|../Half-Life 2/episodic"
-			game				"|all_source_engine_paths|../Half-Life 2/ep2"
-			game				"|all_source_engine_paths|../Half-Life 2/lostcoast"
-			game				"|all_source_engine_paths|../Half-Life 2 Deathmatch/hl2mp"
-			game				"|all_source_engine_paths|../infra/infra"
-			game				"|all_source_engine_paths|../Black Mesa/bms"
+			// Source games
+			game				|all_source_engine_paths|../GarrysMod/garrysmod/garrysmod.vpk
+			game				"|all_source_engine_paths|../Half-Life 2/episodic/ep1_pak.vpk"
+			game				"|all_source_engine_paths|../Half-Life 2/ep2/ep2_pak.vpk"
+			game				"|all_source_engine_paths|../Half-Life 2/lostcoast/lostcoast_pak.vpk"
+			game				"|all_source_engine_paths|../Half-Life 2 Deathmatch/hl2mp/hl2mp_pak.vpk"
+			game				"|all_source_engine_paths|../Counter-Strike Source/cstrike/cstrike_pak.vpk"
+			game				"|all_source_engine_paths|../infra/infra/pak01.vpk"
+
+			// Black Mesa content - last time I checked a bit buggy in hammer++ and caused hammer++ to crash
+			//game				"|all_source_engine_paths|../Black Mesa/bms/bms_materials.vpk"
+			//game				"|all_source_engine_paths|../Black Mesa/bms/bms_models.vpk"
+			//game				"|all_source_engine_paths|../Black Mesa/bms/bms_sound_vo_english.vpk"
+			//game				"|all_source_engine_paths|../Black Mesa/bms/bms_sounds_misc.vpk"
+			//game				"|all_source_engine_paths|../Black Mesa/bms/bms_textures.vpk"
+
 
 			// Other contents
 			// game				"E:/gmod/maps/rp_riverden/content/"
