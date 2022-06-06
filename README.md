@@ -111,8 +111,7 @@ These lines mount contents from source games, list goes as follow
 8. Navigate into your `Garry's Mod` root folder and then into `bin` folder and find there file called `garrysmod.fgd` and load it
 9. Click on the `2D Views` tab and in `Options` section tick everything in the right column
 10. In the `Build Programs` tab, you are going to change the path of `Game executable` to `<Garry's Mod root folder>/hl2.exe`
-11. In the `Build Programs` tab, you are going to change the path of `Place compiled maps in this directory before running the game
-` to `<Garry's Mod root folder>/garrysmod/maps` [](note from original pull requester: i'm not sure if this is the correct one, as it was Maps Folder before. there is nothing named there in that tab.)
+11. In the `Build Programs` tab, you are going to change the path of `Place compiled maps in this directory before running the game` to `<Garry's Mod root folder>/garrysmod/maps`
 12. In `Hammer++`, disable Anisotropic Filtering
 
 ## Example `gameinfo.txt`
