@@ -86,7 +86,6 @@ game				"<Steam's common folder>/Black Mesa/bms/bms_models.vpk"
 game				"<Steam's common folder>/Black Mesa/bms/bms_sound_vo_english.vpk"
 game				"<Steam's common folder>/Black Mesa/bms/bms_sounds_misc.vpk"
 game				"<Steam's common folder>/Black Mesa/bms/bms_textures.vpk"
-
 ```
 You add them after those lines:
 ```
