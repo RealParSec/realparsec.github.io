@@ -71,15 +71,22 @@ This part of the tutorial will be text only, so read it very carefully as every 
 3. You're gonna need to add these lines into your `gameinfo.txt`, **don't forget to change "<Steam's common folder>" to proper path!**
 Example: [link](https://github.com/RealParSec/realparsec.github.io/blob/master/README.md#example-gameinfotxt)
 ```
-// Game contents
-game				"<Steam's common folder>/GarrysMod/garrysmod/garrysmod.vpk"
-game				"<Steam's common folder>/Counter-Strike Source/cstrike"
-game				"<Steam's common folder>/Half-Life 2/episodic"
-game				"<Steam's common folder>/Half-Life 2/ep2"
-game				"<Steam's common folder>/Half-Life 2/lostcoast"
-game				"<Steam's common folder>/Half-Life 2 Deathmatch/hl2mp"
-game				"<Steam's common folder>/infra/infra"
-game				"<Steam's common folder>/Black Mesa/bms"
+// Source games content
+game				|all_source_engine_paths|../GarrysMod/garrysmod/garrysmod.vpk
+game				"|all_source_engine_paths|../Half-Life 2/episodic/ep1_pak.vpk"
+game				"|all_source_engine_paths|../Half-Life 2/ep2/ep2_pak.vpk"
+game				"|all_source_engine_paths|../Half-Life 2/lostcoast/lostcoast_pak.vpk"
+game				"|all_source_engine_paths|../Half-Life 2 Deathmatch/hl2mp/hl2mp_pak.vpk"
+game				"|all_source_engine_paths|../Counter-Strike Source/cstrike/cstrike_pak.vpk"
+game				"|all_source_engine_paths|../infra/infra/pak01.vpk"
+
+// Black Mesa content - last time I checked a bit buggy in hammer++ and caused hammer++ to crash
+//game				"|all_source_engine_paths|../Black Mesa/bms/bms_materials.vpk"
+//game				"|all_source_engine_paths|../Black Mesa/bms/bms_models.vpk"
+//game				"|all_source_engine_paths|../Black Mesa/bms/bms_sound_vo_english.vpk"
+//game				"|all_source_engine_paths|../Black Mesa/bms/bms_sounds_misc.vpk"
+//game				"|all_source_engine_paths|../Black Mesa/bms/bms_textures.vpk"
+
 ```
 You add them after those lines:
 ```
