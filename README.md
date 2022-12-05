@@ -1,6 +1,6 @@
 | Languages |
 | --- |
-| **en**, [ru](./lang/ru/) |
+| **en**, [ru](./lang/ru/), [pt-br](./lang/pt-br/)|
 
 # How to use Hammer++ with Garry's Mod
 
