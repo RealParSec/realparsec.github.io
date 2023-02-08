@@ -36,22 +36,22 @@ Dans ce tutoriel, je suppose que vous avez Garry's Mod ainsi que tous les jeux s
 1. Naviguez dans votre bibliothèque steam et assurez-vous que vous avez coché `OUTILS` dans vos filtres de recherche.
 2. Ouvrez la catégorie `SANS CATEGORIE` et trouvez `Source SDK 2013 Multiplayer`, ou bien recherchez-le simplement.
 3. Cliquez sur le bouton `INSTALLER` puis sur `SUIVANT >` et attendez qu'il se télécharge.
-![Image 1](./images/1.png)
+![Image 1](../images/1_fr.png)
 4. **Vous devez exécuter HAMMER DU SOURCE SDK 2013 MULTIPLAYER MAINTENANT AVANT DE CONTINUER** (Les étapes ci-dessous expliquent comment faire)
 5. Faites un clic droit sur `Source SDK 2013 Multiplayer`, survolez `Gérer` et cliquez ensuite sur `Parcourir les fichiers locaux`.
-!Image 2](./images/2.png)
+!Image 2](../images/2_fr.png)
 6. Naviguez dans le dossier `bin` et double-cliquez sur `hammer.exe`. Une petite fenêtre devrait apparaître, choisissez `Half-Life 2` à partir de là.
 7. Lorsque Hammer s'ouvre et s'initialise complètement, fermez-le.
-![Image 3](./images/3.png)
+![Image 3](../images/3.png)
 
 ### (Facultatif) Comment installer Slammin' Tools ?
 **Slammin' Tools n'est nécessaire mais c'est une bonne chose à avoir, surtout si vous compilez les cartes de Statua.**
 
 1. Allez sur ce [lien](https://drive.google.com/drive/folders/17pQY8wDkednZi0kMZOSpAtNBNmFWm6GJ) et téléchargez le fichier se terminant par `.7z`.
-![Image 4](./images/4.png)
+![Image 4](../images/4_fr.png)
 2. Une fois téléchargé, ouvrez l'archive, glissez et déposez les fichiers dans le dossier `bin` de `Source SDK 2013 Multiplayer` (Il vous sera demandé si vous voulez remplacer certains fichiers, cliquez sur oui).
-![Image 5](./images/5.png)
-![Image 6](./images/6.png)
+![Image 5](../images/5.png)
+![Image 6](../images/6.png)
 3. Maintenant répétez les étapes `6` et `7` de l'installation du `Source SDK 2013 Multiplayer`.
 
 ## Installation et configuration Hammer++
