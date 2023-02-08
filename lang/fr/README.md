@@ -1,6 +1,6 @@
 | Languages |
 | --- |
-| [en](/), [ru](./lang/ru/), [pt-br](./lang/pt-br/), **fr**|
+| [en](/../../), [ru](/../../lang/ru/), [pt-br](/../../lang/pt-br/), **fr**|
 
 ## Comment utiliser Hammer++ avec Garry's Mod
 
