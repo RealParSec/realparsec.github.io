@@ -30,22 +30,22 @@
 1. 導航至 Steam 庫，確保在搜索過濾器中勾選了工具 
 2. 打開 `未分類` 分類然後找到 `Source SDK 2013 Multiplayer`，或者直接搜索。
 3. 點擊 `安裝` 按鈕然後按 `繼續` 接着等待它下載完成
-![Image 1](./images/1.png)
+![Image 1](../../images/1.png)
 1. **「在繼續之前你必須先從 SOURCE SDK 2013 MULTIPLAYER 運行一次 HAMMER」** (下面的步驟講述了該如何操作)
 2. 右鍵 `Source SDK 2013 Multiplayer`，移到 `管理` 然後點擊 `瀏覽本機檔案`
-![Image 2](./images/2.png)
+![Image 2](../../images/2.png)
 1. 導航到 `bin` 資料夾然後雙擊 `hammer.exe` 。彈出一個小窗口，從裏面選擇 `Half-Life 2` 。
 2. 當 Hammer 打開並完全初始化，關閉它
-![Image 3](./images/3.png)
+![Image 3](../../images/3.png)
 
 ### (可選) 如何安裝 Slammin' Tools？
 **Slammin' Tools 並不是很必要，但是是個很好的選擇，特別是當你在編譯 Statua 的地圖時。**
 
 1. 導航到這個 [鏈接](https://drive.google.com/drive/folders/17pQY8wDkednZi0kMZOSpAtNBNmFWm6GJ) 並下載後綴爲 `.7z` 的檔案
-![Image 4](./images/4.png)
+![Image 4](../../images/4.png)
 1. 下載完成後，打開壓縮檔案並把所有檔案拖拽進 `Source SDK 2013 Multiplayer` 的 `bin` 資料夾 (I它會詢問你是否要覆蓋某些檔案，選擇是)
-![Image 5](./images/5.png)
-![Image 6](./images/6.png)
+![Image 5](../../images/5.png)
+![Image 6](../../images/6.png)
 1. 接下來重複安裝 `Source SDK 2013 Multiplayer` 的步驟 `6` 和 `7` 
 
 ## 安裝並配置 Hammer++
@@ -53,10 +53,10 @@
 
 ### 安裝
 1. 導航到這個 [鏈接](https://ficool2.github.io/HammerPlusPlus-Website/pages/download.html) 並下載 `Source SDK 2013 Multiplayer` 的版本
-![Image 7](./images/7.png)
+![Image 7](../../images/7.png)
 2. 下載完成後，打開壓縮檔案，導航到你看到的唯一的資料夾中，打開裏面的 `bin` 資料夾並把裏面所有的檔案拖拽到 `Source SDK 2013 Multiplayer` 的 `bin` 資料夾
-![Image 8](./images/8.png)
-![Image 9](./images/9.png)
+![Image 8](../../images/8.png)
+![Image 9](../../images/9.png)
 3. 接下來重複安裝 `Source SDK 2013 Multiplayer` 的步驟 `6` 和 `7` 
 
 ### 配置
