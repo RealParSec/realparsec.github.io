@@ -7,8 +7,8 @@
 - 一部運行 Windows 操作系統的電腦
 - [7-Zip](https://www.7-zip.org/)
 - [Garry's Mod](https://store.steampowered.com/app/4000)
-- 起源遊戲
-	- [反恐精英：起源](https://store.steampowered.com/app/240)
+- Source 遊戲
+	- [絕對武力：Source](https://store.steampowered.com/app/240)
 	- [Half-Life 2](https://store.steampowered.com/app/220)
 	- [Half-Life 2: 死亡競賽](https://store.steampowered.com/app/320)
 	- [Half-Life 2: 第一章](https://store.steampowered.com/app/380)
@@ -21,12 +21,12 @@
 - [Hammer++](https://ficool2.github.io/HammerPlusPlus-Website/index.html)
 
 **關於 Windows 版本相容**  
-需要 Windows 來運行 Hammer++，因爲其它系統尚未被 Valve 完全支援，hammer 也還未在 Windows 以外的任何操作系統上可用。雖然目前還沒有一個精確的版本號，但是我個人已經在從 Windows 10 專業版 20H2 構建 19042.928 到 Windows 10 專業版 21H2 構建 19044.1526(也是我在撰寫這個的時候在公開發布通道上最新的版本) 上進行了測試。。儘管如此，自從我在將近一年前發佈本指南以來，已有很多人按照本指南在許多不同的 Windows 版本（包括 Windows 11）上成功安裝了 Hammer++ 。
+需要 Windows 來運行 Hammer++，因爲其它系統尚未被 Valve 完全支援，hammer 也還未在 Windows 以外的任何操作系統上可用。雖然目前還沒有一個精確的版本號，但是我個人已經在從 Windows 10 專業版 20H2 構建 19042.928 到 Windows 10 專業版 21H2 構建 19044.1526(也是我在撰寫這個的時候在公開發布通道上最新的版本) 上進行了測試。儘管如此，自從我在將近一年前發佈本指南以來，已有很多人按照本指南在許多不同的 Windows 版本（包括 Windows 11）上成功安裝了 Hammer++ 。
 
 ## 我該如何安裝環境需求？
-在這個教程中，我想你已經安裝了 Garry's Mod 以及我提到的所有起源遊戲，還安裝了 7-Zip。
+在這個教程中，我想你已經安裝了 Garry's Mod 以及我提到的所有 Source 遊戲，還安裝了 7-Zip。
 
-### 如何安裝Source SDK 2013 Multiplayer
+### 如何安裝 Source SDK 2013 Multiplayer
 1. 導航至 Steam 庫，確保在搜索過濾器中勾選了工具 
 2. 打開 `未分類` 分類然後找到 `Source SDK 2013 Multiplayer`，或者直接搜索。
 3. 點擊 `安裝` 按鈕然後按 `繼續` 接着等待它下載完成
@@ -68,7 +68,7 @@
 示例：[鏈接](https://github.com/RealParSec/realparsec.github.io/blob/master/README.md#example-gameinfotxt)
 
 ```
-// 起源遊戲內容
+// Source 遊戲內容
 game				"<Steam 的 common 資料夾>/GarrysMod/garrysmod/garrysmod.vpk"
 game				"<Steam 的 common 資料夾>/Half-Life 2/episodic/ep1_pak.vpk"
 game				"<Steam 的 common 資料夾>/Half-Life 2/ep2/ep2_pak.vpk"
@@ -93,9 +93,9 @@ gamebin				hl2/bin
 platform			|all_source_engine_paths|platform
 ```
 
-以下的內容適用於裝載到起源遊戲，列表如下
+以下的內容適用於裝載到 Source 遊戲，列表如下
 - Garry's Mod
-- 反恐精英：起源
+- 絕對武力：Source
 - Half-Life 2: 第一章
 - Half-Life 2: 第二章
 - Half-Life 2: 迷失的海岸線
@@ -181,7 +181,7 @@ platform			|all_source_engine_paths|platform
 			game				|all_source_engine_paths|hl2
 			platform			|all_source_engine_paths|platform
 
-			// 起源遊戲
+			// Source 遊戲
 			game				"|all_source_engine_paths|../GarrysMod/garrysmod/garrysmod.vpk"
 			game				"|all_source_engine_paths|../Half-Life 2/episodic/ep1_pak.vpk"
 			game				"|all_source_engine_paths|../Half-Life 2/ep2/ep2_pak.vpk"

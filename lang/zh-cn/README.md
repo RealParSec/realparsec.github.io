@@ -21,12 +21,12 @@
 - [Hammer++](https://ficool2.github.io/HammerPlusPlus-Website/index.html)
 
 **关于 Windows 版本兼容**  
-需要 Windows 来运行 Hammer++，因为其它系统尚未被 Valve 完全支持，hammer 也还未在 Windows 以外的任何操作系统上可用。虽然目前还没有一个精确的版本号，但是我个人已经在从 Windows 10 专业版 20H2 构建 19042.928 到 Windows 10 专业版 21H2 构建 19044.1526(也是我在撰写这个的时候在公开发布通道上最新的版本) 上进行了测试。。尽管如此，自从我在将近一年前发布本指南以来，已有很多人按照本指南在许多不同的 Windows 版本（包括 Windows 11）上成功安装了 Hammer++ 。
+需要 Windows 来运行 Hammer++，因为其它系统尚未被 Valve 完全支持，hammer 也还未在 Windows 以外的任何操作系统上可用。虽然目前还没有一个精确的版本号，但是我个人已经在从 Windows 10 专业版 20H2 构建 19042.928 到 Windows 10 专业版 21H2 构建 19044.1526(也是我在撰写这个的时候在公开发布通道上最新的版本) 上进行了测试。尽管如此，自从我在将近一年前发布本指南以来，已有很多人按照本指南在许多不同的 Windows 版本（包括 Windows 11）上成功安装了 Hammer++ 。
 
 ## 我该如何安装环境需求？
 在这个教程中，我想你已经安装了 Garry's Mod 以及我提到的所有起源游戏，还安装了 7-Zip。
 
-### 如何安装Source SDK 2013 Multiplayer
+### 如何安装 Source SDK 2013 Multiplayer
 1. 导航至 Steam 库，确保在搜索过滤器中勾选了工具 
 2. 打开 `未分类` 分类然后找到 `Source SDK 2013 Multiplayer`，或者直接搜索。
 3. 点击 `安装` 按钮然后按 `继续` 接着等待它下载完成
