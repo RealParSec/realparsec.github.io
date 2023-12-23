@@ -211,6 +211,9 @@ These lines mount contents from source games, list goes as follow
 }
 ```
 
+## lights.rad
+There is a default lights.rad provided in Garrys Mod that needs to be copied over, as the Source SDK Base 2013 Multiplayer does not provide one. This file can be found in the same location as the `gameinfo.txt` for Garrys Mod, and is copied into the `hl2` folder for Source SDK Base 2013 Multiplayer.
+
 ## Last words
 Now you are ready to use Hammer++ and it should work. The only problem is that you have to double mount contents as Hammer++ does not support the Garry's Mod mounting way for now. So, if you are using Hammer++ you are most probably familiar with `mount.cfg` of gmod, so to mount content into Hammer++ you have to mount it in the `gameinfo.txt` file you edited earlier and add it right after those lines you added earlier `game "<path to your content>"`. If you think that I could improve something then messege me on Github or you can ping me on discord (ParSec#4563) on the [Statua Mapping](https://discord.gg/3Uq4WKNRuF) server, I do recommend you drop by and say hello, a lot of people there can help you with a lot of your problems.
 
