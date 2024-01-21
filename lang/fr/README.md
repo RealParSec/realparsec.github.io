@@ -58,7 +58,7 @@ Dans ce tutoriel, je suppose que vous avez Garry's Mod ainsi que tous les jeux s
 Maintenant, sans dire plus de conneries, car je me déteste déjà au point de me frapper dans le visage, nous arrivons à la grande finale qui est l'installation et la configuration de Hammer++.
 
 ### Installation
-1. Allez sur ce [lien](https://ficool2.github.io/HammerPlusPlus-Website/pages/download.html) et téléchargez la version du `Source SDK 2013 Multiplayer`.
+1. Allez sur ce [lien](https://ficool2.github.io/HammerPlusPlus-Website/download.html) et téléchargez la version du `Source SDK 2013 Multiplayer`.
 ![Image 7](../images/7.png)
 2. Une fois téléchargé, ouvrez l'archive, naviguez dans le dossier que vous voyez et dans le dossier `bin` à l'intérieur, glissez et déposez les fichiers dans le dossier `bin` de `Source SDK 2013 Multiplayer`.
 ![Image 8](../images/8.png)

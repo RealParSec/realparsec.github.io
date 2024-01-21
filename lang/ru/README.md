@@ -52,7 +52,7 @@
 Теперь без лишней ерунды, так как я уже ненавижу себя до такой степени, что бью себя по лицу, мы попадаем в грандиозный финал, который устанавливает и настраивает Hammer++.
 
 ### Установка
-1. Перейдите по ссылке [https://ficool2.github.io/HammerPlusPlus-Website/pages/download.html] и скачайте версию для `Source SDK 2013 Multiplayer`.
+1. Перейдите по ссылке [https://ficool2.github.io/HammerPlusPlus-Website/download.html] и скачайте версию для `Source SDK 2013 Multiplayer`.
 ![Изображение 7](../../images/7.png)
 2. После загрузки откройте архив и перейдите внутрь папки, а затем перетащите файлы в папку `bin` Мультиплеера `Source SDK 2013`.
 ![Изображение 8](../../images/8.png)

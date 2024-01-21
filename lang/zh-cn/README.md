@@ -52,7 +52,7 @@
 好了现在别再放狗屁了，我已经活腻到要对自己的脸使用大力冲拳了（bushi），现在让我们进入最终阶段：安装并配置 Hammer++ 。
 
 ### 安装
-1. 导航到这个 [链接](https://ficool2.github.io/HammerPlusPlus-Website/pages/download.html) 并下载 `Source SDK 2013 Multiplayer` 的版本
+1. 导航到这个 [链接](https://ficool2.github.io/HammerPlusPlus-Website/download.html) 并下载 `Source SDK 2013 Multiplayer` 的版本
 ![Image 7](../../images/7.png)
 2. 下载完成后，打开压缩包，导航到你看到的唯一的文件夹中，打开里面的 `bin` 文件夹并把里面所有的文件拖拽到 `Source SDK 2013 Multiplayer` 的 `bin` 文件夹
 ![Image 8](../../images/8.png)
